@@ -1,0 +1,51 @@
+.race-countdown-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.race-countdown-container h2 {
+  font-size: 2.2rem;
+  color: #90caf9;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.timer {
+  color: #ffe082;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.flag-status {
+  font-size: 1.2rem;
+  color: #b0bec5;
+  margin-bottom: 2rem;
+}
+
+.fullscreen-button {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+}
+
+.fullscreen-button:hover {
+  background: #1565c0;
+  color: #fff;
+}

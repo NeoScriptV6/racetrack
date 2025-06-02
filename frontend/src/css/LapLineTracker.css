@@ -1,0 +1,370 @@
+.lap-tracker-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.lap-tracker-title {
+  font-size: 2.2rem;
+  color: #90caf9;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.lap-tracker-card {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  min-width: 320px;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+/* some irrelevant code here */
+.lap-tracker-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: transparent;
+}
+
+.lap-tracker-table th, .lap-tracker-table td {
+  border: 1px solid #333a;
+  padding: 10px;
+  text-align: left;
+}
+
+.lap-tracker-table th {
+  background: #232526;
+  color: #90caf9;
+  font-weight: bold;
+}
+
+.lap-tracker-table tr:nth-child(even) {
+  background: #232526;
+}
+
+.lap-tracker-table tr:nth-child(odd) {
+  background: #2c2f34;
+}
+
+.lap-tracker-table tr:hover {
+  background: #1565c033;
+}
+
+.lap-tracker-btn,
+.lap-tracker-action-btn {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lap-tracker-btn:hover,
+.lap-tracker-action-btn:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.auth-container {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  max-width: 350px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.auth-container input[type="password"] {
+  width: 80%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333a;
+  background: #2c2f34;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.car-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-button {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  min-height: 90px;
+  flex: 1 1 160px;
+  max-width: 180px;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.lap-tracker-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.lap-tracker-title {
+  font-size: 2.2rem;
+  color: #90caf9;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.lap-tracker-card {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  min-width: 320px;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+/* some irrelevant code here */
+.lap-tracker-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: transparent;
+}
+
+.lap-tracker-table th, .lap-tracker-table td {
+  border: 1px solid #333a;
+  padding: 10px;
+  text-align: left;
+}
+
+.lap-tracker-table th {
+  background: #232526;
+  color: #90caf9;
+  font-weight: bold;
+}
+
+.lap-tracker-table tr:nth-child(even) {
+  background: #232526;
+}
+
+.lap-tracker-table tr:nth-child(odd) {
+  background: #2c2f34;
+}
+
+.lap-tracker-table tr:hover {
+  background: #1565c033;
+}
+
+.lap-tracker-btn,
+.lap-tracker-action-btn {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lap-tracker-btn:hover,
+.lap-tracker-action-btn:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.auth-container {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  max-width: 350px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.auth-container input[type="password"] {
+  width: 80%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333a;
+  background: #2c2f34;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.car-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-button {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 2rem;
+  padding: 3.2rem 2rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 130px;
+  max-width: 270px;
+  margin: 1.2rem;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.car-button:hover:not(.disabled),
+.car-button:active:not(.disabled) {
+  background: #1565c0;
+  color: #fff;
+}
+
+.car-button.disabled {
+  background: #444a;
+  color: #888;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .car-buttons {
+    gap: 1.3rem;
+    max-width: 100vw;
+  }
+  .car-button {
+    font-size: 1.7rem;
+    min-width: 120px;
+    min-height: 80px;
+    max-width: 48vw;
+    padding: 1.8rem 1rem;
+    border-radius: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .car-button {
+    font-size: 1.2rem;
+    min-width: 90px;
+    min-height: 90px;
+    padding: 0.9rem 0.6rem;
+    border-radius: 0.8rem;
+  }
+}
+
+.lap-info {
+  font-size: 0.95rem;
+  color: #b0bec5;
+  margin-top: 0.3rem;
+}
+
+.race-status {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #b0bec5;
+  text-align: center;
+}
+
+.car-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+.car-button:hover:not(.disabled),
+.car-button:active:not(.disabled) {
+  background: #1565c0;
+  color: #fff;
+}
+
+.car-button.disabled {
+  background: #444a;
+  color: #888;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+.lap-info {
+  font-size: 0.95rem;
+  color: #b0bec5;
+  margin-top: 0.3rem;
+}
+
+.race-status {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #b0bec5;
+  text-align: center;
+}
+
+.car-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

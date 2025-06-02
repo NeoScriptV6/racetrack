@@ -1,0 +1,200 @@
+.FrontDeskContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+
+.FrontDeskTopBar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background: rgba(33, 37, 41, 0.97);
+  border-bottom: 1px solid #222c36;
+  box-shadow: 0 2px 8px #111a;
+}
+
+.FrontDeskTitle {
+  margin-left: 24px;
+  font-size: 2rem;
+  color: #90caf9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.FrontDeskBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.FrontDeskRaces {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 2rem;
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+}
+
+.RaceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: transparent;
+}
+
+.RaceTable th, .RaceTable td {
+  border: 1px solid #333a;
+  padding: 10px;
+  text-align: left;
+}
+
+.RaceTable th {
+  background: #232526;
+  color: #90caf9;
+  font-weight: bold;
+}
+
+.RaceTable tr:nth-child(even) {
+  background: #232526;
+}
+
+.RaceTable tr:nth-child(odd) {
+  background: #2c2f34;
+}
+
+.RaceTable tr:hover {
+  background: #1565c033;
+}
+
+.NoRacesToShow {
+  color: #b0bec5;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.AddRaceButton,
+.CloseFormButton,
+.DeleteRaceButton,
+.EditRaceButton {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+}
+
+.AddRaceButton:hover,
+.CloseFormButton:hover,
+.DeleteRaceButton:hover,
+.EditRaceButton:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.DeleteRaceButton {
+  color: #e57373;
+}
+
+.DeleteRaceButton:hover {
+  background: #b71c1c;
+  color: #fff;
+}
+
+.EditRaceButton {
+  color: #90caf9;
+}
+
+.EditRaceButton:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.FormBackground {
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000077;
+  top: 0;
+  left: 0;
+}
+
+.FrontDeskForm {
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  max-width: 95vw;
+  max-height: 90vh;
+  background: #232526;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  color: #fff;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+
+.FormElemCarNr {
+  color: #90caf9;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.FrontDeskFormInput,
+.FrontDeskDateInput,
+.FrontDeskTimeInput {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #333a;
+  padding: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: #2c2f34;
+  color: #fff;
+}
+
+.FormButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.auth-container {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  max-width: 350px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.auth-container input[type="password"] {
+  width: 80%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333a;
+  background: #2c2f34;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,96 @@
+.RaceControlContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+
+.RaceControlTopBar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background: rgba(33, 37, 41, 0.97);
+  border-bottom: 1px solid #222c36;
+  box-shadow: 0 2px 8px #111a;
+}
+
+.RaceControlTopBarTitle {
+  margin-left: 24px;
+  font-size: 2rem;
+  color: #90caf9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.ToggleContainer {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  min-width: 270px;
+  max-width: 400px;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ToggleTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #90caf9;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.ToggleButton {
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ToggleButton:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.auth-container {
+  background: rgba(33, 37, 41, 0.97);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #111a;
+  padding: 2rem;
+  color: #fff;
+  max-width: 350px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.auth-container input[type="password"] {
+  width: 80%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333a;
+  background: #2c2f34;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+

@@ -1,0 +1,55 @@
+.race-flags-container {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background: #222c36;
+  color: #e3f2fd;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #111a;
+  transition: background 0.2s, color 0.2s;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.fullscreen-button:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.flag {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  background-color: red; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+  z-index: 1;
+}
+
+.flag.checkered {
+  background:
+    repeating-conic-gradient(white 0% 25%, black 0% 50%) 50% / 80px 80px;
+  background-color: transparent;
+}
